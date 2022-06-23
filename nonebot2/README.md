@@ -1,4 +1,4 @@
-# none-bot安装教程
+# nonebot2安装教程
 ***首先要有python并且配置好环境***
 ## 安装nb-cli
 
