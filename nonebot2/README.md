@@ -126,7 +126,7 @@ servers:
 
 下载后在`bot`目录解压
 
-在`bot`目录找到`.env`，把`dev`改为`prod`
+在`bot`目录找到`.env`，修改`.env`的内容，把`dev`改为`prod`
 
 编辑`.env.prod`，修改一下内容
 
