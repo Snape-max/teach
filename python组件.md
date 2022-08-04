@@ -36,7 +36,7 @@ def md5_encrypt(en_str):
 ```
 
 ## 3. 生成唯一token
-
+```python
     import uuid
     import  hashlib
     
@@ -48,10 +48,10 @@ def md5_encrypt(en_str):
     md5 = hashlib.md5()  # 使用MD5加密模式
     md5.update(str(uuid.uuid1()).encode('utf-8'))  
     return md5.hexdigest()
-
+```
 ## 4、发送手机验证码
 
-```
+```python
 #验证码管理表
 class AuthCode(models.Model):
     name = models.CharField(max_length=10,default=None, null=True, blank=True,verbose_name='姓名')
